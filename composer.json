@@ -1,0 +1,25 @@
+{
+    "name": "ics042/yii2-materialize",
+    "description": "Yii2 Integration for Admin LTE theme",
+    "keywords": ["yii2", "materialize", "theme"],
+    "homepage": "http://github.com/ics042/yii2-materialize",
+    "authors": [
+            {
+              "name": "Ben Yang",
+              "email": "tsun424@gmail.com",
+              "role": "Developer"
+            }
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0",
+        "bower-asset/materialize": "~0.97.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ics042\\Materialize\\": "src"
+        }
+    }
+}
