@@ -1,5 +1,5 @@
 <!-- START CONTENT -->
-<section>
+<section class="content-section">
 
     <!--start container-->
     <div class="container">

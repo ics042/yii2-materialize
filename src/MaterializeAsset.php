@@ -22,14 +22,14 @@ class MaterializeAsset extends \yii\web\AssetBundle
     /**
      * @var string
      */
-    public $sourcePath = '@vendor/bower-asset/materialize/dist';
+    public $sourcePath = '@vendor/bower/materialize/dist';
 
     /**
      * @var array
      */
     public $css = [
         'css/materialize.min.css',
-        'css/style.min.css'
+        '//fonts.googleapis.com/icon?family=Material+Icons'
         ];
 
     /**

@@ -24,7 +24,9 @@ class ThemeAsset extends \yii\web\AssetBundle
         'ics042\Materialize\MaterializeAsset'
     ];
 
-    public $css = ['css/overrides.css'];
+    public $css = [
+        'css/style.css'
+    ];
     /**
      * @var array
      */

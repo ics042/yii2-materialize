@@ -23,12 +23,14 @@ ThemeAsset::register($this);
 
     <?php $this->beginBody() ?>
     <!-- START WRAPPER -->
-    <div id="main">
+    <div id="main-div-content">
         <div class="wrapper">
             <!-- Sidebar Begin -->
             <?= $this->render('//layouts/sidebar') ?>
             <!-- Sidebar End -->
-
+            <!-- Content Header Begin -->
+            <?= $this->render('//layouts/content-header') ?>
+            <!-- Content Header End -->
             <!-- Content Begin -->
             <?= $this->render('//layouts/content', ['content' => $content]) ?>
             <!-- Content End -->
